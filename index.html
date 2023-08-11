@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Opacity Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="dropzone">
+        <p>Drag and drop two images here</p>
+    </div>
+    <div class="images-container">
+        <div class="image-wrapper">
+            <img id="image1" class="image" src="" alt="Image 1">
+            <img id="image2" class="image" src="" alt="Image 2">
+        </div>
+    </div>
+    <div class="slider-container">
+        <label for="opacitySlider">Opacity:</label>
+        <input type="range" id="opacitySlider" min="0" max="1" step="0.01" value="1">
+    </div>
+    <div class="aspect-ratio-container">
+        <fieldset>
+            <legend>Select the aspect ratio:</legend>
+
+            <div>
+                <input type="radio" name="aspect_ratio" value="2:1" id="2_1" checked>
+                <label for="2_1">2:1</label>
+            </div>
+
+            <div>
+                <input type="radio" name="aspect_ratio" value="3:1" id="3_1">
+                <label for="3_1">3:1</label>
+            </div>
+        </fieldset>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
