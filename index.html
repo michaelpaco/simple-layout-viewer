@@ -13,7 +13,7 @@
         <p>Drag and drop two images here</p>
     </div>
     <div class="images-container">
-        <div class="image-wrapper">
+        <div id="image-wrapper" class="medium_aspect_ratio">
             <img id="image1" class="image" src="" alt="Image 1">
             <img id="image2" class="image" src="" alt="Image 2">
         </div>
@@ -27,12 +27,12 @@
             <legend>Select the aspect ratio:</legend>
 
             <div>
-                <input type="radio" name="aspect_ratio" value="2:1" id="2_1" checked>
+                <input type="radio" name="aspect-ratio" value="2:1" id="2_1" checked>
                 <label for="2_1">2:1</label>
             </div>
 
             <div>
-                <input type="radio" name="aspect_ratio" value="3:1" id="3_1">
+                <input type="radio" name="aspect-ratio" value="3:1" id="3_1">
                 <label for="3_1">3:1</label>
             </div>
         </fieldset>

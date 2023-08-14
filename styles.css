@@ -25,10 +25,19 @@ body {
     margin-bottom: 20px;
 }
 
-.image-wrapper {
+#image-wrapper {
     position: relative;
     overflow: hidden;
+    background-color: beige;
+}
+
+#image-wrapper.large_aspect_ratio {
     width: 960px;
+    height: 320px;
+}
+
+#image-wrapper.medium_aspect_ratio {
+    width: 640px;
     height: 320px;
 }
 
@@ -51,9 +60,6 @@ body {
 }
 
 fieldset {
-    cursor: not-allowed;
-    background-color: grey;
-    opacity: 0.2;
     width: 240px;
     margin: 0 auto;
 }
