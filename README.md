@@ -1,6 +1,7 @@
 # simple-layout-viewer
 
-I've created this little tool to help to validate our layout changes according to figma specification.
+This little tool was created to help to validate layout changes according to figma specification.
+Currently supporting 2:1 and 3:1 layouts (1920x960 or 2880x960, for example).
 
 Basically you just drag and drop two images on the drop field and adjust the slider to set the transparency and see your changes.
 
